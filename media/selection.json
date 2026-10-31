@@ -1,0 +1,20 @@
+{
+  "selection_rule": "Uniform random draw from all 120 successful arm/seed trials at fixed G=1000 (68 bounded, 52 quadratic); one draw, no visual or timing screening",
+  "rng": "Python random.Random, seeded once using secrets.randbits(64)",
+  "random_seed": 1914834228085433913,
+  "candidate_count": 120,
+  "selected_sorted_candidate_index": 47,
+  "reward": "bounded",
+  "training_seed": 20066,
+  "member_id": "member_0066",
+  "generation": 1000,
+  "success_time_s": 5.986000000000001,
+  "first_post_success_exit_time_s": null,
+  "horizon_s": 20,
+  "state_sample_interval_s": 0.02,
+  "event_monitor_interval_s": 0.002,
+  "source_full_cohort_trajectory_sha256": "555630b7a5af032f4297a4e219cc69fd341c9d159595106b253b36735497313c",
+  "selected_trajectory_sha256": "3c1fc42d6cd7e8f2149445472b31aab6ed63cc78f28fab683196be8f0354b6b2",
+  "new_training_or_simulation": false,
+  "interpretation": "Illustrative successful archived evaluation; selection conditional on success, not representative of the full cohort."
+}
