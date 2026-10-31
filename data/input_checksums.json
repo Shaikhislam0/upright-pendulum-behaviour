@@ -1,0 +1,11 @@
+{
+  "bounded_events.csv": "2317dc8e796815b3bdf74058093a10e0dd31159dc8867299dd681a3cea65c9c5",
+  "endpoint_comparison.csv": "37b5aa3258691bebda9fe1c2809854055b3e29d3e22ee23a11b5730c890e003b",
+  "exploratory_descriptive_analysis.json": "b1fd70dadd9dbccbff38a1e6dfb68947de6560b023c0d928be86ad30ad048551",
+  "feasibility_reference.json": "d223422a530d0f6b8c720efde3e0ad9be98969ab2eb12c8572c61794bb07e8bc",
+  "paired_seed_results.csv": "74911557a9c5fb11acb70a6352caf069eebc1193d36056b646e77561807d41e7",
+  "paired_surface.npz": "fd8b39ee9e5a269f13643064500c5836a4dee3f5c522328ea26487b49e0ec17d",
+  "physics_validation.json": "a8761a80f581fe5ab742f67d96668b18aae33792156245b7a2a8201ee98f5a2e",
+  "quadratic_events.csv": "b9e8708d4f0df258ff1520115b35ba291f2119856b7899ff9b25481447239aa1",
+  "reported_summary.json": "0ce1a00aac6bac26b9082f106d138d8f1290b6d7e4cffb2ba85df06c193bc976"
+}

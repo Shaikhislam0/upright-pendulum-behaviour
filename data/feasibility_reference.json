@@ -1,0 +1,115 @@
+{
+  "purpose": "physical full-task feasibility, not PPO performance",
+  "passed": true,
+  "controller": {
+    "energy_gain": 5,
+    "cart_kp": 0.5,
+    "cart_kd": 1,
+    "kick_N": 2,
+    "kick_duration_s": 0.2,
+    "capture_angle_rad": 0.25,
+    "capture_angular_speed_rad_s": 2.5
+  },
+  "cases": {
+    "exact_downward": {
+      "in_region": true,
+      "continuous_hold_time": 15.006,
+      "has_succeeded": true,
+      "success_time": 6.994000000000001,
+      "first_post_success_exit_time": null,
+      "event_observed": true,
+      "right_censored": false,
+      "observed_time": 6.994000000000001,
+      "followup_time": 20.0,
+      "initial_state": [
+        0,
+        0,
+        3.141592653589793,
+        0
+      ],
+      "max_abs_cart_position_m": 1.06070053212158,
+      "max_abs_force_N": 10.0,
+      "final_state": [
+        1.0794297990361881e-10,
+        -1.4624461377353107e-10,
+        6.283185307183503,
+        2.6067005193625772e-11
+      ]
+    },
+    "mirrored_kick": {
+      "in_region": true,
+      "continuous_hold_time": 15.006,
+      "has_succeeded": true,
+      "success_time": 6.994000000000001,
+      "first_post_success_exit_time": null,
+      "event_observed": true,
+      "right_censored": false,
+      "observed_time": 6.994000000000001,
+      "followup_time": 20.0,
+      "initial_state": [
+        0,
+        0,
+        -3.141592653589793,
+        0
+      ],
+      "max_abs_cart_position_m": 1.06070053212158,
+      "max_abs_force_N": 10.0,
+      "final_state": [
+        -1.0794297990361881e-10,
+        1.4624461377353107e-10,
+        -6.283185307183503,
+        -2.6067005193625772e-11
+      ]
+    },
+    "perturbed_downward": {
+      "in_region": true,
+      "continuous_hold_time": 14.75,
+      "has_succeeded": true,
+      "success_time": 7.25,
+      "first_post_success_exit_time": null,
+      "event_observed": true,
+      "right_censored": false,
+      "observed_time": 7.25,
+      "followup_time": 20.0,
+      "initial_state": [
+        0.1,
+        0,
+        3.161592653589793,
+        0
+      ],
+      "max_abs_cart_position_m": 0.8417145719513676,
+      "max_abs_force_N": 10.0,
+      "final_state": [
+        1.7481664394906806e-10,
+        -2.5088108896340126e-10,
+        6.283185307190089,
+        3.6175177922782677e-11
+      ]
+    },
+    "periodic_equivalent": {
+      "in_region": true,
+      "continuous_hold_time": 15.006,
+      "has_succeeded": true,
+      "success_time": 6.994000000000001,
+      "first_post_success_exit_time": null,
+      "event_observed": true,
+      "right_censored": false,
+      "observed_time": 6.994000000000001,
+      "followup_time": 20.0,
+      "initial_state": [
+        0,
+        0,
+        9.42477796076938,
+        0
+      ],
+      "max_abs_cart_position_m": 1.06070053212158,
+      "max_abs_force_N": 10.0,
+      "final_state": [
+        1.0795117548021199e-10,
+        -1.462492722334677e-10,
+        12.566370614363084,
+        2.6086711961480108e-11
+      ]
+    }
+  }
+}

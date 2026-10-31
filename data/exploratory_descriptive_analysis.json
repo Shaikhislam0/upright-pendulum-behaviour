@@ -1,0 +1,22 @@
+{
+  "status": "post hoc descriptive; no new hypothesis tests",
+  "source": "sealed per-seed event times",
+  "bounded": {
+    "first_measured_generation_at_least_50": 570,
+    "g600_to_g1000": {
+      "success_both": 44,
+      "success_to_failure": 12,
+      "failure_to_success": 24,
+      "failure_both": 20
+    }
+  },
+  "quadratic": {
+    "first_measured_generation_at_least_50": 440,
+    "g600_to_g1000": {
+      "success_both": 39,
+      "success_to_failure": 29,
+      "failure_to_success": 13,
+      "failure_both": 19
+    }
+  }
+}

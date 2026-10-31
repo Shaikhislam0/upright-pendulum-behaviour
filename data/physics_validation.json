@@ -1,0 +1,141 @@
+{
+  "stage": 1,
+  "parameters": {
+    "cart_mass": 1.0,
+    "pole_mass": 0.1,
+    "length": 1.0,
+    "gravity": 9.81,
+    "com_distance": 0.5,
+    "inertia_com": 0.008333333333333333,
+    "cart_damping": 0.0,
+    "pivot_damping": 0.0
+  },
+  "inertia_pivot_kg_m2": 0.03333333333333333,
+  "control_dt_s": 0.02,
+  "integration_dt_s": 0.002,
+  "unforced_duration_s": 60.0,
+  "arithmetic": "float64",
+  "integrator": "classical RK4, zero-order-held force",
+  "tolerances": {
+    "max_energy_drift_J": 1e-06,
+    "max_momentum_drift_kg_m_s": 1e-07,
+    "reference_max_component_error": 1e-07,
+    "power_balance_residual_J": 1e-06
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "gymnasium": "1.4.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "unforced_cases": {
+    "oscillation": {
+      "initial_state": [
+        0,
+        0,
+        2.4,
+        0
+      ],
+      "initial_energy_J": 0.12880838252701912,
+      "max_abs_energy_drift_J": 1.1810497024811184e-11,
+      "scaled_energy_drift": 1.2039242634873785e-11,
+      "max_abs_momentum_drift_kg_m_s": 3.287703442822476e-12
+    },
+    "rotation": {
+      "initial_state": [
+        0,
+        0,
+        3.141592653589793,
+        10
+      ],
+      "initial_energy_J": 1.6666666666666667,
+      "max_abs_energy_drift_J": 3.9448044830692197e-10,
+      "scaled_energy_drift": 2.3668826898415317e-10,
+      "max_abs_momentum_drift_kg_m_s": 3.865198161534522e-10
+    },
+    "coupled_motion": {
+      "initial_state": [
+        0.2,
+        1.5,
+        0.2,
+        -2
+      ],
+      "initial_energy_J": 2.1283793364216095,
+      "max_abs_energy_drift_J": 5.525047086507584e-11,
+      "scaled_energy_drift": 2.5958939705723258e-11,
+      "max_abs_momentum_drift_kg_m_s": 8.056688649560328e-11
+    },
+    "near_upright": {
+      "initial_state": [
+        0,
+        0,
+        0.01,
+        0
+      ],
+      "initial_energy_J": 0.9809754752043744,
+      "max_abs_energy_drift_J": 5.863154406426929e-11,
+      "scaled_energy_drift": 5.97671193315691e-11,
+      "max_abs_momentum_drift_kg_m_s": 7.753198083548796e-11
+    }
+  },
+  "reference_and_convergence": {
+    "solver": "SciPy DOP853, independent matrix-form RHS",
+    "rtol": 1e-12,
+    "atol": 1e-14,
+    "duration_s": 2.0,
+    "initial_state": [
+      0,
+      0,
+      2.4,
+      1.3
+    ],
+    "force_N": 1.7,
+    "max_component_errors_x_v_theta_omega": [
+      7.593259354621296e-12,
+      2.3094859358252506e-11,
+      1.656830228569106e-10,
+      4.625231309063338e-10
+    ],
+    "step_sizes_s": [
+      0.02,
+      0.01,
+      0.005,
+      0.002
+    ],
+    "final_state_error_norms": [
+      1.636720766305271e-06,
+      1.0224292926202409e-07,
+      6.444142879562815e-09,
+      1.6615938784148395e-10
+    ],
+    "halving_error_ratios": [
+      16.008156046769244,
+      15.866024570355348
+    ],
+    "norm_note": "Euclidean norm of raw SI components, used only as a convergence diagnostic"
+  },
+  "power_balance": {
+    "duration_s": 5.0,
+    "constant_force_work_residual_J": -1.8054890915664146e-11,
+    "damped_unforced_balance_residual_J": 4.101891049046458e-11,
+    "damped_parameters": {
+      "cart_mass": 1.0,
+      "pole_mass": 0.1,
+      "length": 1.0,
+      "gravity": 9.81,
+      "com_distance": 0.5,
+      "inertia_com": 0.008333333333333333,
+      "cart_damping": 0.1,
+      "pivot_damping": 0.01
+    },
+    "damped_initial_state": [
+      0.0,
+      0.4,
+      2.2,
+      3.0
+    ],
+    "dissipation_quadrature": "composite Simpson at 0.002 s"
+  },
+  "passed": true
+}

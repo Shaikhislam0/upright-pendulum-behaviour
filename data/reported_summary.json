@@ -1,0 +1,137 @@
+{
+  "status": "paired analysis completed",
+  "computed_utc": "2026-10-30T10:36:33.490087+00:00",
+  "models_per_arm": 100,
+  "paired_seeds": 100,
+  "measured_generations": 101,
+  "evaluation_time_points": 201,
+  "bounded": {
+    "final_successes_by_20s": 68,
+    "pointwise_95_interval_percentage": [
+      57.92331383683774,
+      76.97800832384229
+    ],
+    "final_censored_at_20s": 32,
+    "first_evaluated_generation_with_success": 260,
+    "scanned_maximum_count_descriptive_only": 73,
+    "generations_at_scanned_maximum": [
+      910
+    ],
+    "final_mean_capped_first_event_time_s": 12.36448,
+    "final_success_conditioned_median_s": 8.056000000000001,
+    "final_time_to_at_least_50_events_s": 9.427999999999999,
+    "final_successes_with_later_exit": 1,
+    "final_successes_with_no_observed_later_exit": 67,
+    "final_counts_at_times": {
+      "2": 0,
+      "5": 4,
+      "10": 55,
+      "13": 62,
+      "15": 63,
+      "20": 68
+    }
+  },
+  "quadratic": {
+    "final_successes_by_20s": 52,
+    "pointwise_95_interval_percentage": [
+      41.77897654063067,
+      62.099451982204144
+    ],
+    "final_censored_at_20s": 48,
+    "first_evaluated_generation_with_success": 240,
+    "scanned_maximum_count_descriptive_only": 68,
+    "generations_at_scanned_maximum": [
+      600,
+      690
+    ],
+    "final_mean_capped_first_event_time_s": 13.10458,
+    "final_success_conditioned_median_s": 6.005000000000001,
+    "final_time_to_at_least_50_events_s": 13.446,
+    "final_successes_with_later_exit": 2,
+    "final_successes_with_no_observed_later_exit": 50,
+    "final_counts_at_times": {
+      "2": 0,
+      "5": 13,
+      "10": 48,
+      "13": 49,
+      "15": 51,
+      "20": 52
+    }
+  },
+  "primary_paired_endpoint": {
+    "paired_seeds": 100,
+    "both_succeed": 38,
+    "bounded_only": 30,
+    "quadratic_only": 14,
+    "neither_succeeds": 18,
+    "bounded_successes": 68,
+    "quadratic_successes": 52,
+    "difference_percentage_points": 16.0,
+    "difference_interval_percentage_points": [
+      -3.4614320333784034,
+      34.183648241803105
+    ],
+    "confidence_level": 0.95,
+    "interval_method": "Conservative paired difference: Bonferroni joint Clopper-Pearson discordance bounds",
+    "exact_mcnemar_two_sided_p_value": 0.022628841205914796,
+    "inference_scope": "One declared final endpoint; follow-up design after reference outcomes were known"
+  },
+  "descriptive_capped_time_difference_s": -0.7401000000000001,
+  "selected_checkpoints": [
+    {
+      "generation": 0,
+      "bounded_successes": 0,
+      "quadratic_successes": 0,
+      "difference_pp": 0.0
+    },
+    {
+      "generation": 100,
+      "bounded_successes": 0,
+      "quadratic_successes": 0,
+      "difference_pp": 0.0
+    },
+    {
+      "generation": 300,
+      "bounded_successes": 3,
+      "quadratic_successes": 14,
+      "difference_pp": -11.0
+    },
+    {
+      "generation": 500,
+      "bounded_successes": 35,
+      "quadratic_successes": 61,
+      "difference_pp": -26.0
+    },
+    {
+      "generation": 600,
+      "bounded_successes": 56,
+      "quadratic_successes": 68,
+      "difference_pp": -12.0
+    },
+    {
+      "generation": 750,
+      "bounded_successes": 58,
+      "quadratic_successes": 67,
+      "difference_pp": -9.0
+    },
+    {
+      "generation": 900,
+      "bounded_successes": 61,
+      "quadratic_successes": 53,
+      "difference_pp": 8.0
+    },
+    {
+      "generation": 1000,
+      "bounded_successes": 68,
+      "quadratic_successes": 52,
+      "difference_pp": 16.0
+    }
+  ],
+  "completed_local_time": "2026-10-29T21:35:08.042145+05:00",
+  "continuation_elapsed_wall_hours": 18.836322042416658,
+  "largest_elapsed_generation": 992,
+  "largest_elapsed_generation_hours": 8.767475776583337,
+  "other_recorded_phases_hours": 10.047885146083944,
+  "followup_limitation": "Designed after reference outcomes were known; not an independent confirmatory replication",
+  "no_new_training_started": true
+}
