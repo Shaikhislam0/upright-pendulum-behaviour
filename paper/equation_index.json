@@ -1,0 +1,104 @@
+[
+  {
+    "number": 1,
+    "latex": "X_c=x+\\ell\\sin\\theta,\\qquad Y_c=\\ell\\cos\\theta.",
+    "file": "equations/equation_01.png",
+    "dpi": 400
+  },
+  {
+    "number": 2,
+    "latex": "K=\\frac{1}{2}(M+m)v^2+m\\ell\\cos\\theta\\,v\\omega+\\frac{1}{2}J\\omega^2.",
+    "file": "equations/equation_02.png",
+    "dpi": 400
+  },
+  {
+    "number": 3,
+    "latex": "V=mg_0\\ell(1+\\cos\\theta).",
+    "file": "equations/equation_03.png",
+    "dpi": 400
+  },
+  {
+    "number": 4,
+    "latex": "(M+m)\\ddot{x}+m\\ell\\cos\\theta\\,\\ddot{\\theta}-m\\ell\\sin\\theta\\,\\omega^2=F-bv.",
+    "file": "equations/equation_04.png",
+    "dpi": 400
+  },
+  {
+    "number": 5,
+    "latex": "m\\ell\\cos\\theta\\,\\ddot{x}+J\\ddot{\\theta}-mg_0\\ell\\sin\\theta=-c\\omega.",
+    "file": "equations/equation_05.png",
+    "dpi": 400
+  },
+  {
+    "number": 6,
+    "latex": "D=AJ-B^2,\\qquad \\ddot{x}=\\frac{Jr_x-Br_\\theta}{D},\\qquad \\ddot{\\theta}=\\frac{Ar_\\theta-Br_x}{D}.",
+    "file": "equations/equation_06.png",
+    "dpi": 400
+  },
+  {
+    "number": 7,
+    "latex": "\\dot E=Fv-bv^2-c\\omega^2,\\qquad p_x=(M+m)v+m\\ell\\cos\\theta\\,\\omega.",
+    "file": "equations/equation_07.png",
+    "dpi": 400
+  },
+  {
+    "number": 8,
+    "latex": "\\dot p_x=F-bv.",
+    "file": "equations/equation_08.png",
+    "dpi": 400
+  },
+  {
+    "number": 9,
+    "latex": "|x|\\leq0.1\\;\\mathrm{m},\\quad |v|\\leq0.1\\;\\mathrm{m/s},\\quad |\\operatorname{wrap}(\\theta)|\\leq5^\\circ,\\quad |\\omega|\\leq0.2\\;\\mathrm{rad/s}.",
+    "file": "equations/equation_09.png",
+    "dpi": 400
+  },
+  {
+    "number": 10,
+    "latex": "T_s=\\inf\\{t\\geq\\tau:\\ s(u)\\in R\\ \\mathrm{for\\ all}\\ u\\in[t-\\tau,t]\\}.",
+    "file": "equations/equation_10.png",
+    "dpi": 400
+  },
+  {
+    "number": 11,
+    "latex": "H_r(g,t)=P\\{T_{s,r}(g)\\leq t\\},\\qquad \\widehat{H}_r(g,t)=\\frac{1}{100}\\sum_{i=1}^{100}{\\bf1}\\{T_{s,r,i}(g)\\leq t\\}.",
+    "file": "equations/equation_11.png",
+    "dpi": 400
+  },
+  {
+    "number": 12,
+    "latex": "A(z;s)=\\frac{1}{1+(z/s)^2}.",
+    "file": "equations/equation_12.png",
+    "dpi": 400
+  },
+  {
+    "number": 13,
+    "latex": "r_Q=u(\\theta)-0.1(x/1)^2-0.01(v/1)^2-0.01(\\omega/5)^2-0.001(F/10)^2.",
+    "file": "equations/equation_13.png",
+    "dpi": 400
+  },
+  {
+    "number": 14,
+    "latex": "r_B=u(\\theta)A_x\\frac{1+A_v}{2}\\frac{1+A_w}{2}-0.1(1-A_x)-0.01(1-A_v)-0.01(1-A_w)-0.001(1-A_F).",
+    "file": "equations/equation_14.png",
+    "dpi": 400
+  },
+  {
+    "number": 15,
+    "latex": "\\Delta=E(B_i-Q_i)=p_{10}-p_{01},\\qquad \\widehat{\\Delta}=\\frac{n_{10}-n_{01}}{100}.",
+    "file": "equations/equation_15.png",
+    "dpi": 400
+  },
+  {
+    "number": 16,
+    "latex": "\\Delta\\in[L_{10}-U_{01},\\ U_{10}-L_{01}].",
+    "file": "equations/equation_16.png",
+    "dpi": 400
+  },
+  {
+    "number": 17,
+    "latex": "\\overline{T}_{20}=\\frac{1}{100}\\sum_{i=1}^{100}\\min(T_{s,i},20)=\\int_0^{20}[1-\\widehat{H}(1000,t)]\\,dt.",
+    "file": "equations/equation_17.png",
+    "dpi": 400
+  }
+]
