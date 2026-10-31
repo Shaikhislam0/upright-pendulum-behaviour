@@ -1,0 +1,21 @@
+{
+  "name": "quadratic_boundary_rolling_followup",
+  "reward": {
+    "position_penalty": 0.1,
+    "cart_velocity_penalty": 0.01,
+    "angular_velocity_penalty": 0.01,
+    "force_penalty": 0.001,
+    "position_scale": 1.0,
+    "cart_velocity_scale": 1.0,
+    "angular_velocity_scale": 5.0,
+    "force_scale": 10.0,
+    "form": "quadratic"
+  },
+  "observation": {
+    "angle_representation": "sin_cos",
+    "position_scale": 1.0,
+    "cart_velocity_scale": 1.0,
+    "angular_velocity_scale": 5.0
+  },
+  "schema_version": 1
+}
